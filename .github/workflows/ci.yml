@@ -44,7 +44,7 @@ jobs:
       - name: Run all tests using buildtool
         uses: matlab-actions/run-build@v2
         with:
-          tasks: tests
+          tasks: test
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
